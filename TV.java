@@ -28,12 +28,12 @@ public class TV {
 
     public void channelUp(){
         if (on && channel <120)
-            channel++;
+            channel++; // channel = channel + 1
     }
 
     public void channelDown(){
         if (on && channel >1)
-            channel--;
+            channel--; // channel = channel - 1
     }
 
     public void volumeUp(){
